@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Facebook Notification Be Gone!",
+    "description": "This extension will disable notifications for all facebook pages",
+    "version": "1.0",
+    "browser_action": {
+      "default_icon": "icon.png"
+    },
+    "background":{
+      "scripts": ["background.js"]
+    },
+    "web_accessible_resources": ["assets/spinner.svg"],
+    "permissions": [
+      "activeTab",
+      "storage",
+      "tabs",
+      "http://*/",
+      "https://*/"
+    ]
+  }
