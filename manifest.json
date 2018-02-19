@@ -9,6 +9,9 @@
     "background":{
       "scripts": ["background.js"]
     },
+    "icons": {
+      "64": "icon.png"
+    },
     "web_accessible_resources": ["assets/spinner.svg"],
     "permissions": [
       "activeTab",
